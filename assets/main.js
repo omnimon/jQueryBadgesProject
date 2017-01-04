@@ -9,28 +9,28 @@ $(function() {
   });
 
   //Function to fetch json array and display course details with its help
-  // function displayCourses(courses) {
-  // 	var badges = $('#badges');
-  // 	courses.forEach(function(course) {
+  function displayCourses(courses) {
+  	var badges = $('#badges');
+  	courses.forEach(function(course) {
 
-  // 		var div = $('<div />', {
-  // 			'class': 'course'
-  // 		}).appendTo($badges);
+  		var div = $('<div />', {
+  			'class': 'course'
+  		}).appendTo($badges);
 
-  // 		$('<h3 />', {
-  // 			src: course.title
-  // 		}).appendTo($div);
+  		$('<h3 />', {
+  			src: course.title
+  		}).appendTo($div);
   		
-  // 		$('<img />', {
-  // 			src: course.badge
-  // 		}).appendTo($div);
+  		$('<img />', {
+  			src: course.badge
+  		}).appendTo($div);
 
-  // 		$('<a />', {
-  // 			'class': 'btn btn-primary',
-  // 			target: '_blank',
-  // 			href: course.url,
-  // 			text: 'Go to Course'
-  // 		})appendTo($div);
-  // 	});
-  // }
+  		$('<a />', {
+  			'class': 'btn btn-primary',
+  			target: '_blank',
+  			href: course.url,
+  			text: 'Go to Course'
+  		})appendTo($div);
+  	});
+  }
 });
