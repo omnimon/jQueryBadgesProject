@@ -25,12 +25,12 @@ $(function() {
   			src: course.badge
   		}).appendTo($div);
 
-  		// $('<a />', {
-  		// 	'class': 'btn btn-primary',
-  		// 	target: '_blank',
-  		// 	href: course.url,
-  		// 	text: 'Go to Course'
-  		// })appendTo($div);
+  		$('<a />', {
+  			'class': 'btn btn-primary',
+  			target: '_blank',
+  			href: course.url,
+  			text: 'Go to Course'
+  		})appendTo($div);
   	});
   }
 });
