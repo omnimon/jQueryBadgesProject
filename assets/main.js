@@ -10,10 +10,10 @@ $(function() {
 
   //Function to fetch json array and display course details with its help
   function displayCourses(courses) {
-  	var badges = $('#badges');
+  	var $badges = $('#badges');
   	courses.forEach(function(course) {
 
-  		var div = $('<div />', {
+  		$div = $('<div />', {
   			'class': 'course'
   		}).appendTo($badges);
 
