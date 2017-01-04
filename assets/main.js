@@ -18,19 +18,19 @@ $(function() {
   		}).appendTo($badges);
 
   		$('<h3 />', {
-  			src: course.title
+  			text: course.title
   		}).appendTo($div);
   		
-  		$('<img />', {
-  			src: course.badge
-  		}).appendTo($div);
+  		// $('<img />', {
+  		// 	src: course.badge
+  		// }).appendTo($div);
 
-  		$('<a />', {
-  			'class': 'btn btn-primary',
-  			target: '_blank',
-  			href: course.url,
-  			text: 'Go to Course'
-  		})appendTo($div);
+  		// $('<a />', {
+  		// 	'class': 'btn btn-primary',
+  		// 	target: '_blank',
+  		// 	href: course.url,
+  		// 	text: 'Go to Course'
+  		// })appendTo($div);
   	});
   }
 });
