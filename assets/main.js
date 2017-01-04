@@ -1,7 +1,7 @@
 $(function() {
 
   $.ajax({
-    url: 'http://www.codeschool.com/users/Aleksandras.json',
+    url: 'https://www.codeschool.com/users/Aleksandras.json',
     dataType: 'jsonp',
     success: function(response) {
       // handle response
