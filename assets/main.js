@@ -21,9 +21,9 @@ $(function() {
   			text: course.title
   		}).appendTo($div);
   		
-  		// $('<img />', {
-  		// 	src: course.badge
-  		// }).appendTo($div);
+  		$('<img />', {
+  			src: course.badge
+  		}).appendTo($div);
 
   		// $('<a />', {
   		// 	'class': 'btn btn-primary',
