@@ -30,7 +30,7 @@ $(function() {
   			target: '_blank',
   			href: course.url,
   			text: 'Go to Course'
-  		})appendTo($div);
+  		}).appendTo($div);
   	});
   }
 });
